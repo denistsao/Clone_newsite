@@ -1,0 +1,403 @@
+/*思源黑體*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+.tt{
+	padding-left:15px;
+	padding-right:  15px;
+} 
+
+.tt1{
+	padding-left:20px;
+
+}
+
+.tt2{
+	font-size: 14px;
+}
+
+.myturn{
+	font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+}
+
+.logo_size{
+	width: 100px;
+}
+.logo_size_1{
+	width: 140px;
+}
+
+
+.fb_button {
+    margin-top: 15px;
+    text-align: left;
+}
+
+/*用於按鈕，一碰就出來*/
+.dropdown-menu li:hover .sub-menu {visibility: visible;}
+.dropdown:hover .dropdown-menu {display: block;}
+/*用於按鈕，一碰就出來*/
+
+/*按鈕區*/
+.hr_rule {
+    background-color: #be1d2c;
+    /* 同色*/
+}
+
+.hr_width {
+    width: 75%;
+    background-color: #be1d2c;
+}
+
+.hr_company {
+    width: 75%;
+}
+
+.hw{
+	width:20px;
+	height:20px;
+}
+
+.hr_down{
+   background-color: #ffffff;
+	height:5px;;
+}
+
+.grey {
+    background-color: #C4C4C4;
+	padding: 20px;
+}
+
+.product_prize {
+    color: #be1d2c;
+}
+
+.black {
+    color: #be1d2c;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+}
+
+.index_text {
+    font-family: "Noto Sans TC", sans-serif;
+    /*思源黑體*/
+    font-weight: 400;
+    /*字型大小100,400,500..*/
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #ffffff;
+
+}
+.index_bg{
+	font-family: "Noto Sans TC", sans-serif;
+    /*思源黑體*/
+    font-weight: 400;
+    /*字型大小100,400,500..*/
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+	background-color: #22304f;
+}
+
+.index_some:hover{
+text-decoration:#000000;
+}
+
+.urtext {
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+.updowntext{
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+
+.upbg {
+    color: #000000;
+    background-color: #FFFFFF;
+    /* opacity:0.95; */
+}
+
+/*按鈕區*/
+/*SALES用*/
+.redcolor {
+    color: #993333;
+    font-family: "Noto Sans TC", sans-serif;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.blackcolor {
+    color: #000000;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.whitecolor {
+    color: #ffffff;
+}
+
+.up_text{
+    margin-top: 50px;
+}
+
+/*SALES用*/
+.upfont {
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+		padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+/*footer 用的*/
+.utext {
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    background-color: #22304f;
+}
+
+.tfooter {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.backin {
+    margin-bottom: 10px;
+}
+
+.footer_text{
+    color:#df274c;
+}
+
+/*footer 用的*/
+
+/*gotop按鈕語法*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+/*gotop按鈕語法*/
+
+.pics{ position:relative;}
+.pics img{ position:absolute;
+  /* 淡出淡入效果2秒 */
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+ }
+ .pics img:last-child:hover{
+     /* 滑入時第一張透明度設0 */
+      opacity:0;}
+
+.div_style:hover{
+background: url("../images/btn2222.png");/*这是改变背景色*/
+background-repeat: no-repeat;/*是让背景色不平铺*/
+
+}
+.div_style{
+background: url("../images/btn22.png");/*这是改变背景色*/
+background-repeat: no-repeat;/*是让背景色不平铺*/
+bottom:1080px;
+left: 50px;
+	top:10px;
+	right:80px;
+}
+.pp{
+
+}
+.pp a:hover{
+	background-image: url(../images/btn_1111.png);
+}
+
+/*unionpay*/
+.textdis{
+	font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+	color:#22304f;
+	padding-top: 100px;
+}
+.back{
+	background-color: #e5e5e5;
+    padding: 20px;
+}
+.co{
+    padding: 50px;
+    background-color: #eeeeee;
+
+}
+.co_intro{
+padding-top: 40px;
+  padding-bottom: : 10px;
+  background-color: #eeeeee;
+}
+
+.hover {position:relative;}
+
+.hover img {
+  position:absolute;
+  /* CSS3淡出淡入效果,1秒 */
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.hover img:nth-of-type(2):hover{
+  opacity:0; /*滑鼠滑入時，透明度變0*/
+}
+
+/*簡介*/
+.about_text{
+	font-family: "Noto Sans TC", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+
+/*加入我們*/
+.union_text{
+	color:#ffffff;
+	background-color: #22304f;
+}
+/*給插入卷軸用*/
+.table-hidden tbody{
+  overflow-y: auto;/*設定卷軸 auto 是有超過我的高度的時候才會出現卷軸*/
+	height: 600px;/*自己設定*/
+	display: block;
+}
+.table-hidden tr {
+	width: 100%;
+	display: inline-table;
+}
+/*因為 display: block 打壞了 tbody 的結構，
+  所以 thead 的 tr 跟 tbody 的 td 寬度拆開了，
+  所以必須重新設定表格的寬度，
+  但是 tbody 有包括卷軸 針對bootstrap 去修正卷軸
+*/
+.table-hidden thead th[data-th="其他"]{ width:400px;}
+/*因為 tbody 多了卷軸 尺寸多了 17px*/
+.table-hidden tbody td[data-th="其他"]{ width:383px;}
+
+/*只要最後面尺寸不一樣!!其他的尺寸一樣就好*/
+.table-hidden td[data-th="序號"],
+.table-hidden th[data-th="序號"]{ width:50px;}
+.table-hidden td[data-th="售價"],
+.table-hidden th[data-th="售價"]{ width:100px;}
+
+/*about*/
+.about_bg{
+	font-family: "Noto Sans TC", sans-serif;
+	background-color: #22304f;
+	color:#ffffff;
+}
+
+/*101*/
+.b101_bg{
+	background-color: #22304f;
+	color:#ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.b101_text{
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+	font-size: 18px;
+}
+
+/*news*/
+.edu_news{
+	font-family: "Noto Sans TC", sans-serif;
+	 font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.edu_info{
+	font-family: "Noto Sans TC", sans-serif;
+	 font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+	font-size: 18px;
+	
+}
+
+.union_info{
+	font-family: "Noto Sans TC", sans-serif;
+	 font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+	font-size: 24px;
+}
+.union_text{
+		font-family: "Noto Sans TC", sans-serif;
+	 font-weight: 500;
+    line-height: 28px;
+	font-size:21px;
+background-color: #707070;
+	padding: 20px;
+	text-align: center;
+}
+
+.mem_back{
+	background-image: url(../images/back01.png);
+	background-color:rgba(255,255,255,0.6);
+}
+
+.mem_back_1{
+	background-image: url(../images/back02.png);
+	background-color:rgba(255,255,255,0.6);
+}
+
+.tot{
+	color:#6c757d;
+}
+
+/*導覽列置中*/
+.navbar-center {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-collapse-center {
+  text-align: center;
+}
